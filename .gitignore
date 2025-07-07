@@ -1,0 +1,93 @@
+# ========== Python / Flask Backend ==========
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Flask instance or config files
+instance/
+*.sqlite3
+*.db
+
+# Env files
+.env
+.env.*
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Coverage / testing
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# ========== Node / React Frontend ==========
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Coverage
+coverage/
+
+# Environment variables
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Temporary files
+*.tmp
+*.temp
+
+# ========== Editor & OS Junk ==========
+# VSCode
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ========== PNPM & NPM Extras ==========
+pnpm-lock.yaml
+package-lock.json
+npm-debug.log*
+/mnt/SATA/AgenticMemoryStore/voice/dark_mode_tar/voice-task-manager-frontend/node_modules
+
+# ========== Miscellaneous ==========
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej

@@ -1,0 +1,38 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Node dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+
+# Git files
+.git
+.gitignore
+
+# Editor/OS junk
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
